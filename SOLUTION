@@ -55,3 +55,21 @@ So, the 9-bit complement representation of -13 is
 111110011.
 
 
+
+To calculate numbers with a decimal point and convert them to binary. First, let's start with the decimal number:
+12 = 1100
+15= 1111
+0= 0000
+After this we count the decimal point.
+The decimal point will be in the minus power - which will give us a fraction.
+And this is how the decimal is calculated:
+
+0.3= 0.0100110011
+0.7= 0.101100110011
+0.2= 001100110011
+Finally put everything together:
+12.3= 1100.0100110011
+15.7=1111.101100110011
+0.2= 0.001100110011
+
+
