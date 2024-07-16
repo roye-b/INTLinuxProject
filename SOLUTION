@@ -1,17 +1,57 @@
-<your secret here>      <<  Change this line. The secret must be placed in the first line
+814c5723c21e7e90a3eae36c8df3c513
 
 
 Kernel System Calls
 -------------------
-<Your Answer>
+<trying to set up certain settings on the system,
+Looking for a folder called welcomeToDevOpsTheHardWay/goodLuck
+He sees that there isn't, so he opens welcomeToDevOpsTheHardWay/goodLuck on his own
+He sees that there isn't, so he opens it on his own
+Then in the folder welcomeToDevOpsTheHardWay/goodLuck
+There you go... tell me what I d in the Welcome folder there is the file
 
 
 Broken Symlink
 -------------------
-<Your Answer>
+The main problem is Symbolic link
+
+It is wrong to do this:
+mkdir backups
+mv latest-backup.obj backups
+
+The solution is that after creating a symlink
+ln -s "$FILENAME" latest-backup.obj
+
+echo "Backup created: $FILENAME"
+echo "Symbolic link updated: latest-backup.obj -> $FILENAME"
+
+move it to the correct folder.
+
 
 
 
 Binary Numbers
 --------------
-<Your Answer>
+7
+4
+22
+255
+
+The 9-bit range is 255-255
+If we take the number 13 in binary:
+000001101
+
+
+The opposite of 000001101:
+111110010 is
+
+We will add 1 to it
+111110010+1=111110011.
+
+
+
+So, the 9-bit complement representation of -13 is
+111110011
+111110011.
+
+
