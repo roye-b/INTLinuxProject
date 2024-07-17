@@ -1,4 +1,4 @@
-
+: '
 echo "0 you are in $(pwd)"
 mkdir  secretDir
 
@@ -23,8 +23,12 @@ echo "3 you are in $(pwd)"
 rm -f important.link
 
 bash generateSecret.sh
-
-
-
-
-
+'
+mkdir secretDir
+touch secretDir/.secret
+chmod 600 secretDir/.secret
+chmod a-x secretDir/.secret
+rm -rf maliciousFiles
+chmod +x generateSecret.sh
+rm -rf important.link
+bash generateSecret.sh
