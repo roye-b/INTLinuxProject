@@ -1,27 +1,24 @@
-#!/bin/bash
-#delcared which shell will run this script.
 
-#1 you have to get in to the folder with all the files (i think)
-
-cd src/
-chmod +x generateSecret.sh
-
-#2 where do you create this directory?
+echo "0 you are in $pwd"
 mkdir  secretDir
 
 #~/INTLinuxProject/secretDir
 
 rm -rf maliciousFiles
 
+#get into secretDir Folder
 cd secretDir/
+#create the secret file
 touch .secret
-
-
+echo "1 you are in $pwd"
 cd ..
-
+echo "2 you are in $pwd"
+#set permissions for .secret file
 chmod 600 .secret
 
+#
 cd ..
+echo "3 you are in $pwd"
 
 rm -f important.link
 
