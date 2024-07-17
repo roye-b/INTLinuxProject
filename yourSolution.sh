@@ -3,7 +3,7 @@
 
 #1 you have to get in to the folder with all the files (i think)
 
-cd src
+cd src/
 chmod +x generateSecret.sh
 
 #2 where do you create this directory?
